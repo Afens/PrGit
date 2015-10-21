@@ -1,3 +1,8 @@
+body{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    
+}
 .cabecera{
     background-image: url('http://lorempixel.com/1920/1133/cats/2/');
     height: 100vh;
@@ -8,4 +13,12 @@
 }
 h1{
     font-family: fantasy;
+}
+.jumbotron{
+    background-color: #fafafa;
+}
+.jumbotron p{
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: 200;
 }
