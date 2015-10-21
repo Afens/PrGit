@@ -1,6 +1,35 @@
-
 .cont-team {
     background-color: #40aef7;
     color: #ffffff;
+}
+
+.cont-media {
+    color: #6cb4fb;
+}
+
+.cont-media > a {
+    color: #008cba;
+}
+
+.cont-footer {
+    background-color: #194695;
+    color: #f7e8e8;
+}
+
+.cont-footer,
+.cont-media,
+.cont-team {
+    margin-top: 20px;
     padding: 20px;
+}
+.btn {
+    border-radius: 0px;
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #222222;
+    background-color: #ffffff;
 }
