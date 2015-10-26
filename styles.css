@@ -106,3 +106,12 @@ h1{
     border-top-left-radius: 0;
     padding: 20px 10px;
 }
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexcontainer div {
+    margin: 3px;
+    flex: 0 0 auto;
+}
