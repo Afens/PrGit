@@ -53,3 +53,56 @@ h1{
     font-weight: 200;
 }
 
+
+.panel-danger {
+    border-color: #ea2f10;
+}
+
+.panel-danger>.panel-heading {
+    color: #ffffff;
+    background-color: #f04124;
+    border-color: #ea2f10;
+}
+.btn-danger {
+    color: #ffffff;
+    background-color: #f04124;
+    border-color: #ea2f10;
+}
+.panel-warning>.panel-heading {
+    color: #ffffff;
+    background-color: #e99002;
+    border-color: #d08002;
+}
+.btn-warning {
+    color: #ffffff;
+    background-color: #e99002;
+    border-color: #d08002;
+}
+.panel-success>.panel-heading {
+    color: #ffffff;
+    background-color: #43ac6a;
+    border-color: #3c9a5f;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #43ac6a;
+    border-color: #3c9a5f;
+}
+
+.panel .panel-body {
+    background-color: #f0f0f0;
+    font-size: 20px;
+    color: #777777;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+.panel {
+    border-radius: 0;
+}
+.panel > .panel-heading {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 20px 10px;
+}
